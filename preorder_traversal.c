@@ -24,7 +24,7 @@ void PreOrder(struct BinaryTreeNode * root){
 }
 
 void main(){
-	printf("its working\n");
+	//printf("its working\n");
 	struct BinaryTreeNode* root = NewNode(1);
 	root -> left = NewNode(2);
 	root -> right = NewNode(3);
@@ -35,3 +35,15 @@ void main(){
 	PreOrder(root);
 	printf("\n");
 }
+
+/*   Tree structure
+
+                1
+              /	  \
+           	 2     3
+           	/ \	  / \
+           4   5 6   7
+
+Output :: 1245367
+
+*/
